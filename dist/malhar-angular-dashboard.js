@@ -85,6 +85,9 @@ angular.module('ui.dashboard')
           scope.options.stringifyStorage
         );
 
+        scope.getWidgets = function () {
+            return scope.widgets;
+        };
 
         function getWidget(widgetToInstantiate) {
           if (typeof widgetToInstantiate === 'string') {
