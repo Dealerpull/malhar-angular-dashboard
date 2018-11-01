@@ -422,7 +422,7 @@ angular.module('ui.dashboard')
         if (widget.templateUrl) {
 
           // Use ng-include for templateUrl
-          templateString = '<div ng-include="\'' + widget.templateUrl + '\'"></div>';
+          templateString = '<div ng-include="\'' + widget.templateUrl + '\'" class="widget-template"></div>';
 
         } else if (widget.template) {
 
