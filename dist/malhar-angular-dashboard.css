@@ -2,6 +2,10 @@
   margin: 10px 0 30px;
   min-height: 200px;
 }
+
+.widget-template {
+  height: 100%;
+}
 .widget-container {
   float: left;
   display: inline-block;
